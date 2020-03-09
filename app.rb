@@ -2,6 +2,8 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
+
+  status_code = 200
   # This is a sample static route.
   get '/hello' do
     "Hello World!"
